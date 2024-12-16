@@ -1,5 +1,8 @@
+import Hero from "@/components/hero";
+import reliabilityImg from "Public/reliability.jpg"
+
 export default function ReliabilityPage(){
     return(
-        <div>Reliability Page!</div>
+        <Hero imgAlt="reliable factory" imgData={reliabilityImg} title="Reliability is our number one priority"/>
     )
 }

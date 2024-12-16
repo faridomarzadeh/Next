@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 0 0 1px 3px #dddddd27;
+}
+
+.header-title {
+  font-size: 2rem;
+  flex-basis: 50%;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 50%;
+  z-index: 10;
+}
+
+.header-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header-main__content{
+  font-size: 3rem;
+  color: white;
+  max-width: 25rem;
+  text-align: center;
+}
